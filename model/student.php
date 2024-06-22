@@ -1,6 +1,6 @@
 <?php 
         function database_connection(){
-            return new PDO("mysql:host=localhost;dbname=student","root","Youssef02");;
+            return new PDO("mysql:host=localhost;dbname=student","root","");;
         }
         function list_student(){
             $conn = database_connection();
